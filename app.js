@@ -24,4 +24,28 @@ fetch('data/questions.json')
       questions = data;
       loadTopics();
     });
+let currentQuestion = null;
+
+document.getElementById('topicSelect').addEventListener('change', function () {
+    const filtered = questions.filter(q => q.topic === this.value);
+    if (filtered.length > 0) {
+    showQuestion(filtered[0]);
+    }
+});
+    
+function showQuestion(q) {
+    currentQuestion = q;
+    document.getElementById('question').textContent = q.question;
+    
+    const options = document.getElementById('options');
+    options.innerHTML = '';
+    
+    q.options.forEach((opt, index) => {
+    const li = document.createElement('li');
+    li.textContent = opt;
+    li.onclick = () => checkAnswer(index);
+    options.appendChild(li);
+    });
+}
+    
   
