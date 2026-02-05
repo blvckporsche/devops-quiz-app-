@@ -129,6 +129,72 @@
   ],
   "answerIndex": 1,
   "explanation": "CI provides early feedback on code changes."
+},
+{
+  "id": "Q11",
+  "topic": "Continuous Delivery",
+  "question": "What does Continuous Delivery ensure?",
+  "options": [
+    "Code is always deployable",
+    "Code is never tested",
+    "Manual deployments only",
+    "No automation"
+  ],
+  "answerIndex": 0,
+  "explanation": "Continuous Delivery ensures code is always in a deployable state."
+},
+{
+  "id": "Q12",
+  "topic": "Continuous Delivery",
+  "question": "Continuous Delivery focuses on:",
+  "options": [
+    "Speed only",
+    "Stability only",
+    "Reliable releases",
+    "No releases"
+  ],
+  "answerIndex": 2,
+  "explanation": "CD focuses on reliable and repeatable releases."
+},
+{
+  "id": "Q13",
+  "topic": "Continuous Delivery",
+  "question": "What is typically automated in CD?",
+  "options": [
+    "Infrastructure provisioning",
+    "Build and release processes",
+    "Team meetings",
+    "Documentation writing"
+  ],
+  "answerIndex": 1,
+  "explanation": "CD automates build, test, and release steps."
+},
+{
+  "id": "Q14",
+  "topic": "Continuous Delivery",
+  "question": "Is manual approval allowed in Continuous Delivery?",
+  "options": [
+    "Yes",
+    "No",
+    "Never",
+    "Only once"
+  ],
+  "answerIndex": 0,
+  "explanation": "CD may include manual approval before production."
+},
+{
+  "id": "Q15",
+  "topic": "Continuous Delivery",
+  "question": "Continuous Delivery reduces:",
+  "options": [
+    "Deployment confidence",
+    "Release risk",
+    "Automation",
+    "Testing"
+  ],
+  "answerIndex": 1,
+  "explanation": "CD reduces the risk of releases."
 }
+
 
 ]
