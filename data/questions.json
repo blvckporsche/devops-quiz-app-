@@ -194,7 +194,73 @@
   ],
   "answerIndex": 1,
   "explanation": "CD reduces the risk of releases."
+},
+{
+  "id": "Q16",
+  "topic": "Infrastructure as Code",
+  "question": "What is Infrastructure as Code?",
+  "options": [
+    "Manual server setup",
+    "Managing infrastructure using code",
+    "A monitoring tool",
+    "A cloud provider"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC manages infrastructure through code."
+},
+{
+  "id": "Q17",
+  "topic": "Infrastructure as Code",
+  "question": "Which tool supports Infrastructure as Code?",
+  "options": [
+    "Terraform",
+    "GitHub",
+    "Slack",
+    "Excel"
+  ],
+  "answerIndex": 0,
+  "explanation": "Terraform is a popular IaC tool."
+},
+{
+  "id": "Q18",
+  "topic": "Infrastructure as Code",
+  "question": "IaC improves:",
+  "options": [
+    "Manual errors",
+    "Consistency",
+    "Downtime",
+    "Guesswork"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC improves consistency across environments."
+},
+{
+  "id": "Q19",
+  "topic": "Infrastructure as Code",
+  "question": "Infrastructure definitions should be:",
+  "options": [
+    "Hidden",
+    "Version controlled",
+    "Deleted after use",
+    "Manual"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC files should be version controlled."
+},
+{
+  "id": "Q20",
+  "topic": "Infrastructure as Code",
+  "question": "IaC supports DevOps by:",
+  "options": [
+    "Slowing deployments",
+    "Reducing collaboration",
+    "Enabling automation",
+    "Removing testing"
+  ],
+  "answerIndex": 2,
+  "explanation": "IaC enables automated and repeatable infrastructure setup."
 }
+
 
 
 ]
