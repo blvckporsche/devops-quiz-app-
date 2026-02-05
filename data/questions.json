@@ -1,13 +1,67 @@
-{
+[
+  {
     "id": "Q1",
-    "topic": "Continuous Integration",
-    "question": "What is the primary goal of Continuous Integration?",
+    "topic": "DevOps Culture",
+    "question": "What is a core principle of DevOps culture?",
     "options": [
-      "Automatically deploy to production",
-      "Frequently integrate code changes into a shared repository",
-      "Eliminate the need for testing",
-      "Remove the need for branches"
+      "Strict separation of development and operations",
+      "Collaboration between development and operations",
+      "Avoiding automation",
+      "Manual deployments only"
     ],
     "answerIndex": 1,
-    "explanation": "Continuous Integration aims to detect integration issues early."
+    "explanation": "DevOps promotes collaboration between development and operations teams."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which value is emphasized in DevOps?",
+    "options": [
+      "Blame culture",
+      "Slow releases",
+      "Shared responsibility",
+      "Isolated teams"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps encourages shared responsibility across teams."
+  },
+  {
+    "id": "Q3",
+    "topic": "Version Control Systems",
+    "question": "What is Git primarily used for?",
+    "options": [
+      "Testing automation",
+      "Version control",
+      "Application deployment",
+      "Monitoring"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git is a distributed version control system."
+  },
+  {
+    "id": "Q4",
+    "topic": "Version Control Systems",
+    "question": "What is a Git repository?",
+    "options": [
+      "A server only",
+      "A place to store code history",
+      "A deployment pipeline",
+      "A testing framework"
+    ],
+    "answerIndex": 1,
+    "explanation": "A Git repository stores files and their version history."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What command is used to record changes in Git?",
+    "options": [
+      "git push",
+      "git pull",
+      "git commit",
+      "git clone"
+    ],
+    "answerIndex": 2,
+    "explanation": "git commit records changes to the repository history."
   }
+]
