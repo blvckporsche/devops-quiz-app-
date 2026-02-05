@@ -64,4 +64,71 @@
     "answerIndex": 2,
     "explanation": "git commit records changes to the repository history."
   }
+  ,
+{
+  "id": "Q6",
+  "topic": "Continuous Integration",
+  "question": "What is the main goal of Continuous Integration?",
+  "options": [
+    "Deploy to production automatically",
+    "Integrate code changes frequently",
+    "Remove testing",
+    "Avoid collaboration"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI focuses on frequent integration to detect issues early."
+},
+{
+  "id": "Q7",
+  "topic": "Continuous Integration",
+  "question": "Which tool is commonly used for CI?",
+  "options": [
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Photoshop"
+  ],
+  "answerIndex": 0,
+  "explanation": "Jenkins is a popular CI tool."
+},
+{
+  "id": "Q8",
+  "topic": "Continuous Integration",
+  "question": "When should developers integrate their code?",
+  "options": [
+    "Once per month",
+    "Only before release",
+    "Frequently",
+    "Never"
+  ],
+  "answerIndex": 2,
+  "explanation": "Frequent integration reduces merge conflicts."
+},
+{
+  "id": "Q9",
+  "topic": "Continuous Integration",
+  "question": "What usually runs automatically in CI?",
+  "options": [
+    "Manual reviews",
+    "Automated tests",
+    "Production deployments",
+    "User training"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI pipelines typically run automated tests."
+},
+{
+  "id": "Q10",
+  "topic": "Continuous Integration",
+  "question": "CI helps teams by:",
+  "options": [
+    "Delaying feedback",
+    "Finding bugs earlier",
+    "Removing version control",
+    "Stopping deployments"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI provides early feedback on code changes."
+}
+
 ]
