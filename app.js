@@ -47,5 +47,15 @@ function showQuestion(q) {
     options.appendChild(li);
     });
 }
+function checkAnswer(index) {
+    const feedback = document.getElementById('feedback');
+  
+    if (index === currentQuestion.answerIndex) {
+      feedback.textContent = "Correct! " + currentQuestion.explanation;
+    } else {
+      feedback.textContent = "Incorrect. " + currentQuestion.explanation;
+    }
+  }
+  
     
   
