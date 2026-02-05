@@ -1,13 +1,266 @@
-{
+[
+  {
     "id": "Q1",
-    "topic": "Continuous Integration",
-    "question": "What is the primary goal of Continuous Integration?",
+    "topic": "DevOps Culture",
+    "question": "What is a core principle of DevOps culture?",
     "options": [
-      "Automatically deploy to production",
-      "Frequently integrate code changes into a shared repository",
-      "Eliminate the need for testing",
-      "Remove the need for branches"
+      "Strict separation of development and operations",
+      "Collaboration between development and operations",
+      "Avoiding automation",
+      "Manual deployments only"
     ],
     "answerIndex": 1,
-    "explanation": "Continuous Integration aims to detect integration issues early."
+    "explanation": "DevOps promotes collaboration between development and operations teams."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which value is emphasized in DevOps?",
+    "options": [
+      "Blame culture",
+      "Slow releases",
+      "Shared responsibility",
+      "Isolated teams"
+    ],
+    "answerIndex": 2,
+    "explanation": "DevOps encourages shared responsibility across teams."
+  },
+  {
+    "id": "Q3",
+    "topic": "Version Control Systems",
+    "question": "What is Git primarily used for?",
+    "options": [
+      "Testing automation",
+      "Version control",
+      "Application deployment",
+      "Monitoring"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git is a distributed version control system."
+  },
+  {
+    "id": "Q4",
+    "topic": "Version Control Systems",
+    "question": "What is a Git repository?",
+    "options": [
+      "A server only",
+      "A place to store code history",
+      "A deployment pipeline",
+      "A testing framework"
+    ],
+    "answerIndex": 1,
+    "explanation": "A Git repository stores files and their version history."
+  },
+  {
+    "id": "Q5",
+    "topic": "Version Control Systems",
+    "question": "What command is used to record changes in Git?",
+    "options": [
+      "git push",
+      "git pull",
+      "git commit",
+      "git clone"
+    ],
+    "answerIndex": 2,
+    "explanation": "git commit records changes to the repository history."
   }
+  ,
+{
+  "id": "Q6",
+  "topic": "Continuous Integration",
+  "question": "What is the main goal of Continuous Integration?",
+  "options": [
+    "Deploy to production automatically",
+    "Integrate code changes frequently",
+    "Remove testing",
+    "Avoid collaboration"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI focuses on frequent integration to detect issues early."
+},
+{
+  "id": "Q7",
+  "topic": "Continuous Integration",
+  "question": "Which tool is commonly used for CI?",
+  "options": [
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Photoshop"
+  ],
+  "answerIndex": 0,
+  "explanation": "Jenkins is a popular CI tool."
+},
+{
+  "id": "Q8",
+  "topic": "Continuous Integration",
+  "question": "When should developers integrate their code?",
+  "options": [
+    "Once per month",
+    "Only before release",
+    "Frequently",
+    "Never"
+  ],
+  "answerIndex": 2,
+  "explanation": "Frequent integration reduces merge conflicts."
+},
+{
+  "id": "Q9",
+  "topic": "Continuous Integration",
+  "question": "What usually runs automatically in CI?",
+  "options": [
+    "Manual reviews",
+    "Automated tests",
+    "Production deployments",
+    "User training"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI pipelines typically run automated tests."
+},
+{
+  "id": "Q10",
+  "topic": "Continuous Integration",
+  "question": "CI helps teams by:",
+  "options": [
+    "Delaying feedback",
+    "Finding bugs earlier",
+    "Removing version control",
+    "Stopping deployments"
+  ],
+  "answerIndex": 1,
+  "explanation": "CI provides early feedback on code changes."
+},
+{
+  "id": "Q11",
+  "topic": "Continuous Delivery",
+  "question": "What does Continuous Delivery ensure?",
+  "options": [
+    "Code is always deployable",
+    "Code is never tested",
+    "Manual deployments only",
+    "No automation"
+  ],
+  "answerIndex": 0,
+  "explanation": "Continuous Delivery ensures code is always in a deployable state."
+},
+{
+  "id": "Q12",
+  "topic": "Continuous Delivery",
+  "question": "Continuous Delivery focuses on:",
+  "options": [
+    "Speed only",
+    "Stability only",
+    "Reliable releases",
+    "No releases"
+  ],
+  "answerIndex": 2,
+  "explanation": "CD focuses on reliable and repeatable releases."
+},
+{
+  "id": "Q13",
+  "topic": "Continuous Delivery",
+  "question": "What is typically automated in CD?",
+  "options": [
+    "Infrastructure provisioning",
+    "Build and release processes",
+    "Team meetings",
+    "Documentation writing"
+  ],
+  "answerIndex": 1,
+  "explanation": "CD automates build, test, and release steps."
+},
+{
+  "id": "Q14",
+  "topic": "Continuous Delivery",
+  "question": "Is manual approval allowed in Continuous Delivery?",
+  "options": [
+    "Yes",
+    "No",
+    "Never",
+    "Only once"
+  ],
+  "answerIndex": 0,
+  "explanation": "CD may include manual approval before production."
+},
+{
+  "id": "Q15",
+  "topic": "Continuous Delivery",
+  "question": "Continuous Delivery reduces:",
+  "options": [
+    "Deployment confidence",
+    "Release risk",
+    "Automation",
+    "Testing"
+  ],
+  "answerIndex": 1,
+  "explanation": "CD reduces the risk of releases."
+},
+{
+  "id": "Q16",
+  "topic": "Infrastructure as Code",
+  "question": "What is Infrastructure as Code?",
+  "options": [
+    "Manual server setup",
+    "Managing infrastructure using code",
+    "A monitoring tool",
+    "A cloud provider"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC manages infrastructure through code."
+},
+{
+  "id": "Q17",
+  "topic": "Infrastructure as Code",
+  "question": "Which tool supports Infrastructure as Code?",
+  "options": [
+    "Terraform",
+    "GitHub",
+    "Slack",
+    "Excel"
+  ],
+  "answerIndex": 0,
+  "explanation": "Terraform is a popular IaC tool."
+},
+{
+  "id": "Q18",
+  "topic": "Infrastructure as Code",
+  "question": "IaC improves:",
+  "options": [
+    "Manual errors",
+    "Consistency",
+    "Downtime",
+    "Guesswork"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC improves consistency across environments."
+},
+{
+  "id": "Q19",
+  "topic": "Infrastructure as Code",
+  "question": "Infrastructure definitions should be:",
+  "options": [
+    "Hidden",
+    "Version controlled",
+    "Deleted after use",
+    "Manual"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC files should be version controlled."
+},
+{
+  "id": "Q20",
+  "topic": "Infrastructure as Code",
+  "question": "IaC supports DevOps by:",
+  "options": [
+    "Slowing deployments",
+    "Reducing collaboration",
+    "Enabling automation",
+    "Removing testing"
+  ],
+  "answerIndex": 2,
+  "explanation": "IaC enables automated and repeatable infrastructure setup."
+}
+
+
+
+]
